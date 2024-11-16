@@ -140,5 +140,9 @@ def get_email_logs():
         "timestamp": log.timestamp
     } for log in logs])
 
+# Load the port from environment variables or default to 5000
+PORT = int(os.getenv("PORT", 5000))
+
 if __name__ == '__main__':
-    app.run(debug=True, port=10000)
+    app.run(debug=True, port=PORT)
+
