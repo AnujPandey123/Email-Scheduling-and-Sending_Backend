@@ -9,3 +9,8 @@ python-dotenv
 sendgrid
 requests
 python-dotenv
+Flask
+Flask-RESTX
+Flask-CORS
+Flask-SQLAlchemy
+groq
